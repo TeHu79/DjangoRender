@@ -24,5 +24,6 @@ class Product(models.Model):
      # mutta se ei ole välttämätöntä alussa
     def __str__(self):
         return f"{self.productname} produced by {self.supplier.companyname}"
+    #testirivi
     
 
