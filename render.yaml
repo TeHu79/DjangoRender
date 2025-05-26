@@ -2,7 +2,7 @@ databases:
   - name: suppliersdb
     plan: free
     databaseName: suppliers
-    user: teija
+    user: tiina
 
 services:
   - type: web
@@ -21,8 +21,8 @@ services:
       - key: WEB_CONCURRENCY
         value: 4
       - key: DJANGO_SUPERUSER_USERNAME
-        value: "teija"
+        value: "tiina"
       - key: DJANGO_SUPERUSER_PASSWORD
-        value: "teija"
+        value: "tiina"
       - key: DJANGO_SUPERUSER_EMAIL
         value: "tehustudent@yahoo.com"
