@@ -12,3 +12,4 @@ python manage.py collectstatic --no-input
 python manage.py migrate
 
 #python manage.py createsuperuser --no-input
+#Kommentoi tämä rivi yläpuolella pois kun olet luonut projektin.
